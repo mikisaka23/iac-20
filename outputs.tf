@@ -8,7 +8,7 @@ output "publicip" {
   value       = scalr.public_ip
 }
 
-output "privateip" {
+output "privateipx" {
   description = "Private IP"
   value       = scalr.private_ip
 }

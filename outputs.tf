@@ -1,14 +1,14 @@
 output "instanceid" {
   description = "Instance ID"
-  value       = scalr.id
+  value       = aws_instance.scalr.id
 }
 
 output "publicip" {
   description = "Public IP"
-  value       = scalr.public_ip
+  value       = aws_instance.scalr.public_ip
 }
 
 output "privateipx" {
   description = "Private IP"
-  value       = scalr.private_ip
+  value       = aws_instance.scalr.private_ip
 }
